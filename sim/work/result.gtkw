@@ -1,0 +1,32 @@
+[*]
+[*] GTKWave Analyzer v3.3.118 (w)1999-2023 BSI
+[*] Wed Dec 18 09:46:47 2024
+[*]
+[dumpfile] "C:\Users\Posimsetty\Desktop\Music_Synthesizer\sim\work\result.ghw"
+[dumpfile_mtime] "Wed Dec 18 09:45:04 2024"
+[dumpfile_size] 22274643
+[savefile] "C:\Users\Posimsetty\Desktop\Music_Synthesizer\sim\work\result.gtkw"
+[timestart] 9810300000000
+[size] 2560 1369
+[pos] -1 -1
+*-36.226780 10201800000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.tb.
+[sst_width] 278
+[signals_width] 286
+[sst_expanded] 1
+[sst_vpaned_height] 425
+@201
+-Square Wave Gen
+@28
+top.tb.dut_squarewavegen.i_clk_50mhz
+top.tb.dut_squarewavegen.i_nrst_async
+top.tb.dut_squarewavegen.i_enable
+@22
+#{top.tb.note_select[3:0]} top.tb.note_select[3] top.tb.note_select[2] top.tb.note_select[1] top.tb.note_select[0]
+@420
+top.tb.dut_squarewavegen.count
+@28
+top.tb.dut_squarewavegen.o_wave
+[pattern_trace] 1
+[pattern_trace] 0
