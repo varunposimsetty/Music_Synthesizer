@@ -47,10 +47,14 @@ begin
     if (i_nrst_async = '0') then
         state <= '0';
         count <= 0;
+        note_select_sync <= 0;
+        done <= '0';
     elsif (rising_edge(i_clk_50MHz)) then 
         if (i_enable = '0') then
             state <= '0';
             count <= 0;
+            note_select_sync <= 0;
+            done <= '0';
         elsif (i_enable = '1') then 
             if (done = '0') then 
                 note_select_sync <= to_integer(i_note_select);
